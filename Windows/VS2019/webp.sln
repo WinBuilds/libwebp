@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webplib", "webplib\webplib.vcxproj", "{C9D34779-495F-496D-A2FD-7F71BD2AF844}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webpdll", "webpdll\webpdll.vcxproj", "{B0B49BD4-FF97-4B0D-BA2B-A4B896A33D8D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C9D34779-495F-496D-A2FD-7F71BD2AF844} = {C9D34779-495F-496D-A2FD-7F71BD2AF844}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9D34779-495F-496D-A2FD-7F71BD2AF844}.Debug|x64.ActiveCfg = Debug|x64
+		{C9D34779-495F-496D-A2FD-7F71BD2AF844}.Debug|x64.Build.0 = Debug|x64
+		{C9D34779-495F-496D-A2FD-7F71BD2AF844}.Release|x64.ActiveCfg = Release|x64
+		{C9D34779-495F-496D-A2FD-7F71BD2AF844}.Release|x64.Build.0 = Release|x64
+		{B0B49BD4-FF97-4B0D-BA2B-A4B896A33D8D}.Debug|x64.ActiveCfg = Debug|x64
+		{B0B49BD4-FF97-4B0D-BA2B-A4B896A33D8D}.Debug|x64.Build.0 = Debug|x64
+		{B0B49BD4-FF97-4B0D-BA2B-A4B896A33D8D}.Release|x64.ActiveCfg = Release|x64
+		{B0B49BD4-FF97-4B0D-BA2B-A4B896A33D8D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {042AE66A-390A-4512-B756-31F79786E78E}
+	EndGlobalSection
+EndGlobal
